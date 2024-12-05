@@ -45,14 +45,14 @@ function Home() {
                         </div>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center border-2 border-gray-200 rounded-md py-10 px-4 mx-20">
+                    <div className="flex flex-col justify-center items-center border-2 border-gray-200 rounded-2xl py-10 px-4 mx-20">
                         <div className="flex flex-nowrap justify-center items-center bg-[#f0f4f4] rounded-full">
                             <div className="flex flex-nowrap gap-4 px-6 py-2">
                                 <span
                                     onClick={() => setActiveClass('Economy')}
                                     className={`${activeClass === 'Economy'
-                                            ? 'bg-blue-600 text-white cursor-pointer'
-                                            : 'hover:cursor-pointer hover:bg-blue-600 hover:text-white'
+                                        ? 'bg-blue-600 text-white cursor-pointer'
+                                        : 'hover:cursor-pointer hover:bg-blue-600 hover:text-white'
                                         } duration-300 px-4 py-2 rounded-full w-36 text-center`}
                                 >
                                     Economy
@@ -60,8 +60,8 @@ function Home() {
                                 <span
                                     onClick={() => setActiveClass('Business Class')}
                                     className={`${activeClass === 'Business Class'
-                                            ? 'bg-blue-600 text-white cursor-pointer'
-                                            : 'hover:cursor-pointer hover:bg-blue-600 hover:text-white'
+                                        ? 'bg-blue-600 text-white cursor-pointer'
+                                        : 'hover:cursor-pointer hover:bg-blue-600 hover:text-white'
                                         } duration-300 px-4 py-2 rounded-full w-36 text-center`}
                                 >
                                     Business Class
@@ -69,8 +69,8 @@ function Home() {
                                 <span
                                     onClick={() => setActiveClass('Fast Class')}
                                     className={`${activeClass === 'Fast Class'
-                                            ? 'bg-blue-600 text-white cursor-pointer'
-                                            : 'hover:cursor-pointer hover:bg-blue-600 hover:text-white'
+                                        ? 'bg-blue-600 text-white cursor-pointer'
+                                        : 'hover:cursor-pointer hover:bg-blue-600 hover:text-white'
                                         } duration-300 px-4 py-2 rounded-full w-36 text-center`}
                                 >
                                     Fast Class
@@ -81,8 +81,31 @@ function Home() {
                         {renderClassData()}
                     </div>
 
-                    <div className='flex flex-col justify-center items-center'>
+                    <div className='flex flex-col justify-center items-center pt-20 pb-10 px-4'>
+                        <span className='uppercase' style={{ letterSpacing: '0.8em' }}>travel support</span>
+                        <span className='font-semibold text-3xl tracking-wider py-4'>Plan your travel with confindence</span>
+                        <span className='text-gray-400 tracking-wide text-lg'>Find help with booking and travel plans, see what to expect along the journey!</span>
+                    </div>
 
+                    <div className='grid grid-cols-2 py-20'>
+                        <div>
+
+                            <div className='flex flex-col justify-center items-start gap-2 px-20 py-4'>
+                                <div className='px-2 py-1 bg-blue-600 rounded-full w-10 text-center text-white'>01</div>
+                                <span className='text-2xl font-semibold'>Travel requirements for Dubai</span>
+                                <p className='text-gray-400 py-1'>Find help with booking and travel plans, see what to expect along the journey to your favourite destinations!</p>
+                            </div>
+                            <div className='flex flex-col justify-center items-start gap-2 px-20 py-4'>
+                                <div className='px-2 py-1 bg-blue-600 rounded-full w-10 text-center text-white'>02</div>
+                                <span className='text-2xl font-semibold'>Multi-risk travek insurance</span>
+                                <p className='text-gray-400 py-1'>Find help with booking and travel plans, see what to expect along the journey to your favourite destinations!</p>
+                            </div>
+                            <div className='flex flex-col justify-center items-start gap-2 px-20 py-4'>
+                                <div className='px-2 py-1 bg-blue-600 rounded-full w-10 text-center text-white'>03</div>
+                                <span className='text-2xl font-semibold'>Travel requirements by detination</span>
+                                <p className='text-gray-400 py-1'>Find help with booking and travel plans, see what to expect along the journey to your favourite destinations!</p>
+                            </div>
+                        </div>
 
                     </div>
 

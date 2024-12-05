@@ -6,8 +6,8 @@ import { AiOutlineGlobal } from "react-icons/ai";
 function Navbar() {
     return (
         <>
-            <div className='flex flex-col flex-nowrap gap-2'>
-                <div className='px-16 py-6 bg-slate-300'>
+            <div className='flex flex-col flex-nowrap gap-2 fixed top-0 w-full z-50'>
+                <div className='px-16 py-6 bg-[#f0f4f4]'>
                     <div className='grid grid-cols-3'>
                         <SiConsul className='font-medium text-lg' />
                         <div className='flex justify-center items-center text-gray-500 gap-6 '>

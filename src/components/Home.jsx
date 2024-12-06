@@ -49,7 +49,7 @@ function Home() {
                             </video>
                         </div>
                         <div className='absolute top-12 md:top-4'>
-                            <img src="./src/assets/takeOff.png" className='w-[700px] md:w-[900px] px-4' alt="" />
+                            <img src="./takeOff.png" className='w-[700px] md:w-[900px] px-4' alt="" />
                         </div>
                     </div>
 

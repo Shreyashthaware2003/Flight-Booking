@@ -49,9 +49,9 @@ function Home() {
                         </div>
                     </div>
 
-                    <div className="flex flex-col justify-center items-center border-2 border-gray-200 rounded-2xl py-10 px-4 mx-20">
-                        <div className="flex flex-nowrap justify-center items-center bg-[#f0f4f4] rounded-full">
-                            <div className="flex flex-nowrap gap-4 px-6 py-2">
+                    <div className="flex flex-col justify-center items-center border-2 border-gray-200 rounded-2xl py-10 px-4 mx-4 md:mx-20">
+                        <div className="flex flex-nowrap justify-center items-center bg-[#f0f4f4] rounded-xl md:rounded-full">
+                            <div className="flex flex-col md:flex-row gap-4 px-6 py-2">
                                 <span
                                     onClick={() => setActiveClass('Economy')}
                                     className={`${activeClass === 'Economy'
@@ -85,47 +85,47 @@ function Home() {
                         {renderClassData()}
                     </div>
 
-                    <div className='flex flex-col justify-center items-center pt-20 pb-10 px-4'>
-                        <span className='uppercase' style={{ letterSpacing: '0.8em' }}>travel support</span>
-                        <span className='font-semibold text-3xl tracking-wider py-4'>Plan your travel with confindence</span>
-                        <span className='text-gray-400 tracking-wide text-lg'>Find help with booking and travel plans, see what to expect along the journey!</span>
+                    <div className='flex flex-col justify-center items-center pt-24 md:pt-20 pb-10 px-4'>
+                        <span className='uppercase text-center' style={{ letterSpacing: '0.8em' }}>travel <br className='flex md:hidden' /> support</span>
+                        <span className='font-semibold text-3xl tracking-wider py-4 text-center'>Plan your travel with confindence</span>
+                        <span className='text-gray-400 tracking-wide text-lg text-center'>Find help with booking and travel plans, see what to expect along the journey!</span>
                     </div>
 
-                    <div className='grid grid-cols-2 py-20 items-center'>
+                    <div className='grid grid-cols-1 md:grid-cols-2  md:py-20 px-4 items-center'>
                         <div>
-                            <div className='flex flex-col justify-center items-start gap-2 px-20 py-4'>
+                            <div className='flex flex-col justify-center items-start gap-2 px-4 md:px-20 py-4'>
                                 <div className='px-2 py-1 bg-blue-600 rounded-full w-10 text-center text-white'>01</div>
-                                <span className='text-2xl font-semibold'>Travel requirements for Dubai</span>
+                                <span className='text-xl md:text-2xl font-semibold'>Travel requirements for Dubai</span>
                                 <p className='text-gray-400 py-1'>Find help with booking and travel plans, see what to expect along the journey to your favourite destinations!</p>
                             </div>
-                            <div className='flex flex-col justify-center items-start gap-2 px-20 py-4'>
+                            <div className='flex flex-col justify-center items-start gap-2 px-4 md:px-20 py-4'>
                                 <div className='px-2 py-1 bg-orange-600 rounded-full w-10 text-center text-white'>02</div>
-                                <span className='text-2xl font-semibold'>Multi-risk travel insurance</span>
+                                <span className='text-xl md:text-2xl font-semibold'>Multi-risk travel insurance</span>
                                 <p className='text-gray-400 py-1'>Find help with booking and travel plans, see what to expect along the journey to your favourite destinations!</p>
                             </div>
-                            <div className='flex flex-col justify-center items-start gap-2 px-20 py-4'>
+                            <div className='flex flex-col justify-center items-start gap-2 px-4 md:px-20 py-4'>
                                 <div className='px-2 py-1 bg-fuchsia-600 rounded-full w-10 text-center text-white'>03</div>
-                                <span className='text-2xl font-semibold'>Travel requirements by detination</span>
+                                <span className='text-xl md:text-2xl font-semibold'>Travel requirements by detination</span>
                                 <p className='text-gray-400 py-1'>Find help with booking and travel plans, see what to expect along the journey to your favourite destinations!</p>
                             </div>
                         </div>
-                        <div className='flex justify-center items-center'>
+                        <div className='flex justify-center items-center py-10 md:py-0'>
                             <img src="src/assets/Images-Grid.png" alt="" />
                         </div>
                     </div>
 
                 </div>
             </div>
-            <div className='w-full bg-[#f0f4f4] flex flex-col justify-center items-center py-20 gap-20'>
-                <div className='grid grid-cols-2 justify-between items-center '>
-                    <div className='max-w-[500px] '>
-                        <h1 className='text-4xl font-semibold'>Travel to make memories all around the world</h1>
+            <div className='w-full bg-[#f0f4f4] flex flex-col justify-center items-center py-20 gap-16 md:gap-20'>
+                <div className='grid grid-cols-1 md:grid-cols-2 justify-between items-center gap-10 '>
+                    <div className='max-w-[300px] md:max-w-[500px] '>
+                        <h1 className='text-3xl md:text-4xl font-semibold text-center md:text-start'>Travel to make memories all around the world</h1>
                     </div>
-                    <div className='flex justify-end items-center '>
-                        <button className='bg-blue-600 hover:bg-blue-700 duration-300 text-white px-2 py-2 rounded-full font-medium'>View All</button>
+                    <div className='flex justify-center md:justify-end items-center '>
+                        <button className='bg-blue-600 hover:bg-blue-700 duration-300 text-white px-4 py-2 rounded-full font-medium'>View All</button>
                     </div>
                 </div>
-                <div className='flex justify-center items-center gap-20'>
+                <div className='flex flex-col md:flex-row justify-center items-center gap-20'>
                     <div className='bg-white w-64 py-10 rounded-full flex flex-col justify-center items-center'>
                         <div className='bg-blue-600 text-white py-4 px-4 rounded-full text-xl my-10'>
                             <HiOutlineCalendarDateRange />
@@ -153,11 +153,11 @@ function Home() {
                 </div>
             </div>
 
-            <div className='max-w-[1200px] mx-auto gap-20 py-20 flex items-center'>
-                <div className='max-w-[800px] flex flex-col justify-start'>
-                    <h1 className='font-semibold text-3xl flex justify-start px-8 py-4'>Unaccompanied Minor Lounge</h1>
-                    <div className='grid grid-cols-2 px-8 py-4 gap-x-14 gap-y-4'>
-                        <div className='w-60 text-lg'>
+            <div className='max-w-[1200px] mx-auto gap-10 md:gap-20 py-20 flex flex-col md:flex-row items-center'>
+                <div className=' max-w-[340px] md:max-w-[800px] flex flex-col justify-start'>
+                    <h1 className='font-semibold text-3xl flex justify-start px-4 md:px-8 py-4 tracking-wide'>Unaccompanied Minor Lounge</h1>
+                    <div className='grid grid-cols-1 md:grid-cols-2 px-4 md:px-8 py-4 gap-x-14 gap-y-4'>
+                        <div className='w-full md:w-60 text-lg'>
                             <h1>Help through the airpot</h1>
                             <p className='text-gray-400'>You can also call airlines from your phone and book a flight ticket to one of your favorite destinations.</p>
                         </div>
@@ -181,8 +181,8 @@ function Home() {
             </div>
 
             <div className='max-w-[1200px] mx-auto flex flex-col justify-center items-center py-10'>
-                <h1 className='text-4xl font-semibold tracking-wide'>Top travelers of this month!</h1>
-                <div className="grid grid-cols-1 md:grid-cols-4 justify-center items-center py-20 gap-20">
+                <h1 className='text-3xl md:text-4xl font-semibold tracking-wide text-center'>Top travelers of this month!</h1>
+                <div className="grid grid-cols-1 md:grid-cols-4 justify-center items-center py-20 gap-10 md:gap-20">
 
                     <div className="relative w-56 h-80 overflow-hidden group cursor-pointer duration-300">
                         <img

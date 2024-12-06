@@ -1,5 +1,9 @@
 import React from 'react'
+import '../App.css'
 import { useState } from 'react';
+import { HiOutlineCalendarDateRange } from "react-icons/hi2";
+import { AiOutlineSafetyCertificate } from "react-icons/ai";
+import { LuBookmarkCheck } from "react-icons/lu";
 
 function Home() {
 
@@ -87,29 +91,175 @@ function Home() {
                         <span className='text-gray-400 tracking-wide text-lg'>Find help with booking and travel plans, see what to expect along the journey!</span>
                     </div>
 
-                    <div className='grid grid-cols-2 py-20'>
+                    <div className='grid grid-cols-2 py-20 items-center'>
                         <div>
-
                             <div className='flex flex-col justify-center items-start gap-2 px-20 py-4'>
                                 <div className='px-2 py-1 bg-blue-600 rounded-full w-10 text-center text-white'>01</div>
                                 <span className='text-2xl font-semibold'>Travel requirements for Dubai</span>
                                 <p className='text-gray-400 py-1'>Find help with booking and travel plans, see what to expect along the journey to your favourite destinations!</p>
                             </div>
                             <div className='flex flex-col justify-center items-start gap-2 px-20 py-4'>
-                                <div className='px-2 py-1 bg-blue-600 rounded-full w-10 text-center text-white'>02</div>
-                                <span className='text-2xl font-semibold'>Multi-risk travek insurance</span>
+                                <div className='px-2 py-1 bg-orange-600 rounded-full w-10 text-center text-white'>02</div>
+                                <span className='text-2xl font-semibold'>Multi-risk travel insurance</span>
                                 <p className='text-gray-400 py-1'>Find help with booking and travel plans, see what to expect along the journey to your favourite destinations!</p>
                             </div>
                             <div className='flex flex-col justify-center items-start gap-2 px-20 py-4'>
-                                <div className='px-2 py-1 bg-blue-600 rounded-full w-10 text-center text-white'>03</div>
+                                <div className='px-2 py-1 bg-fuchsia-600 rounded-full w-10 text-center text-white'>03</div>
                                 <span className='text-2xl font-semibold'>Travel requirements by detination</span>
                                 <p className='text-gray-400 py-1'>Find help with booking and travel plans, see what to expect along the journey to your favourite destinations!</p>
                             </div>
                         </div>
-
+                        <div className='flex justify-center items-center'>
+                            <img src="src/assets/Images-Grid.png" alt="" />
+                        </div>
                     </div>
 
                 </div>
+            </div>
+            <div className='w-full bg-[#f0f4f4] flex flex-col justify-center items-center py-20 gap-20'>
+                <div className='grid grid-cols-2 justify-between items-center '>
+                    <div className='max-w-[500px] '>
+                        <h1 className='text-4xl font-semibold'>Travel to make memories all around the world</h1>
+                    </div>
+                    <div className='flex justify-end items-center '>
+                        <button className='bg-blue-600 hover:bg-blue-700 duration-300 text-white px-2 py-2 rounded-full font-medium'>View All</button>
+                    </div>
+                </div>
+                <div className='flex justify-center items-center gap-20'>
+                    <div className='bg-white w-64 py-10 rounded-full flex flex-col justify-center items-center'>
+                        <div className='bg-blue-600 text-white py-4 px-4 rounded-full text-xl my-10'>
+                            <HiOutlineCalendarDateRange />
+                        </div>
+                        <div className='py-10'>
+                            <h1 className='text-lg font-semibold tracking-wide'>Book & Relax</h1>
+                        </div>
+                    </div>
+                    <div className='bg-white w-64 py-10 rounded-full flex flex-col justify-center items-center'>
+                        <div className='bg-orange-600 text-white py-4 px-4 rounded-full text-xl my-10'>
+                            <AiOutlineSafetyCertificate />
+                        </div>
+                        <div className='py-10'>
+                            <h1 className='text-lg font-semibold tracking-wide'>Smart Checklist</h1>
+                        </div>
+                    </div>
+                    <div className='bg-white w-64 py-10 rounded-full flex flex-col justify-center items-center'>
+                        <div className='bg-fuchsia-600 text-white py-4 px-4 rounded-full text-xl my-10'>
+                            <LuBookmarkCheck />
+                        </div>
+                        <div className='py-10'>
+                            <h1 className='text-lg font-semibold tracking-wide'>Save More</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='max-w-[1200px] mx-auto gap-20 py-20 flex items-center'>
+                <div className='max-w-[800px] flex flex-col justify-start'>
+                    <h1 className='font-semibold text-3xl flex justify-start px-8 py-4'>Unaccompanied Minor Lounge</h1>
+                    <div className='grid grid-cols-2 px-8 py-4 gap-x-14 gap-y-4'>
+                        <div className='w-60 text-lg'>
+                            <h1>Help through the airpot</h1>
+                            <p className='text-gray-400'>You can also call airlines from your phone and book a flight ticket to one of your favorite destinations.</p>
+                        </div>
+                        <div className='w-60 text-lg'>
+                            <h1>Priority Boarding</h1>
+                            <p className='text-gray-400'>You can also call airlines from your phone and book a flight ticket to one of your favorite destinations.</p>
+                        </div>
+                        <div className='w-60 text-lg'>
+                            <h1>Care on the flight</h1>
+                            <p className='text-gray-400'>You can also call airlines from your phone and book a flight ticket to one of your favorite destinations.</p>
+                        </div>
+                        <div className='w-60 text-lg'>
+                            <h1>Chauffeur-drive service</h1>
+                            <p className='text-gray-400'>You can also call airlines from your phone and book a flight ticket to one of your favorite destinations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className='flex justify-center items-center'>
+                    <img src="src/assets/Images-Grid2.png" alt="" />
+                </div>
+            </div>
+
+            <div className='max-w-[1200px] mx-auto flex flex-col justify-center items-center py-10'>
+                <h1 className='text-4xl font-semibold tracking-wide'>Top travelers of this month!</h1>
+                <div className="grid grid-cols-1 md:grid-cols-4 justify-center items-center py-20 gap-20">
+
+                    <div className="relative w-56 h-80 overflow-hidden group cursor-pointer duration-300">
+                        <img
+                            src="src/assets/NewYork.png"
+                            className="rounded-full w-full h-full object-cover"
+                            alt="New York"
+                        />
+                        <div className="absolute bottom-4 left-[90px] w-12 h-12 p-1 bg-gray-300 rounded-full flex justify-center items-center shadow-md z-50 animate-bounceSlow">
+                            <img
+                                src="src/assets/user(2).png"
+                                className="rounded-full w-full h-full object-cover "
+                                alt="User"
+                            />
+                        </div>
+
+                        <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex justify-center items-center rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <p className="text-center">Explore New York</p>
+                        </div>
+                    </div>
+
+
+                    <div className="relative w-56 h-80 group overflow-hidden">
+                        <img
+                            src="src/assets/paris.jpg"
+                            className="rounded-full w-full h-full object-cover"
+                            alt="Paris"
+                        />
+                        <div className="absolute bottom-4 left-[90px] w-12 h-12 b p-1 bg-gray-300 rounded-full flex justify-center items-center shadow-md z-50 animate-bounceSlow">
+                            <img
+                                src="src/assets/user(1).png"
+                                className="rounded-full w-full h-full object-cover"
+                                alt="User"
+                            />
+                        </div>
+                        <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex justify-center items-center rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <p className="text-center">Explore Paris</p>
+                        </div>
+                    </div>
+                    <div className="relative w-56 h-80 group cursor-pointer duration-300 overflow-hidden">
+                        <img
+                            src="src/assets/london.png"
+                            className="rounded-full w-full h-full object-cover"
+                            alt="London"
+                        />
+                        <div className="absolute bottom-4 left-[90px] w-12 h-12 p-1 bg-gray-300 rounded-full flex justify-center items-center shadow-md z-50 animate-bounceSlow">
+                            <img
+                                src="src/assets/user(3).png"
+                                className="rounded-full w-full h-full object-cover"
+                                alt="User"
+                            />
+                        </div>
+                        <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex justify-center items-center rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <p className="text-center">Explore London</p>
+                        </div>
+
+                    </div>
+                    <div className="relative w-56 h-80 group cursor-pointer duration-300 overflow-hidden">
+                        <img
+                            src="src/assets/dubai.png"
+                            className="rounded-full w-full h-full object-cover"
+                            alt="Dubai"
+                        />
+                        <div className="absolute bottom-4 left-[90px] w-12 h-12  p-1 bg-gray-300 rounded-full flex justify-center items-center shadow-md z-50 animate-bounceSlow">
+                            <img
+                                src="src/assets/user(4).png"
+                                className="rounded-full w-full h-full object-cover"
+                                alt="User"
+                            />
+                        </div>
+                        <div className="absolute inset-0 bg-black bg-opacity-50 text-white flex justify-center items-center rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <p className="text-center">Explore Dubai</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
             </div>
 
         </>

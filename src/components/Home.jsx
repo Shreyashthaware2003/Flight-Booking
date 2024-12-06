@@ -265,13 +265,13 @@ function Home() {
 
             <div className='bg-[#f0f4f4] flex flex-col justify-center items-center w-full pt-20'>
                 <div className='flex flex-col justify-center items-center'>
-                    <h1 className='text-3xl font-semibold tracking-wide'>Subscribe Newsletters & get Latest News</h1>
-                    <div className='w-full py-6 relative flex justify-center items-center'>
+                    <h1 className='text-3xl font-semibold tracking-wide text-center px-4'>Subscribe Newsletters & get Latest News</h1>
+                    <div className='w-full py-6 relative flex justify-center items-center px-4'>
                         <input type="email" placeholder='Enter your email address' className='w-full px-4 py-3 rounded-full relative' />
-                        <button className='absolute right-2 bg-blue-600 font-semibold text-white rounded-full px-4 py-2'>Subscribe Now</button>
+                        <button className='absolute right-6 bg-blue-600 font-semibold text-white rounded-full px-3 text-sm md:text-base md:px-4 py-1 md:py-2'>Subscribe Now</button>
                     </div>
                 </div>
-                <div className='grid grid-cols-4 justify-start items-center pt-16 px-4 gap-20'>
+                <div className='grid grid-cols-1 md:grid-cols-4 pt-16 px-4 gap-10 md:gap-20 w-full md:w-[1200px]'>
                     <div className='w-56'>
                         <img src="src/assets/air-company-logo.png" className='w-14' alt="" />
                         <p className='text-gray-400 py-4'>Your mind should be stronger than your feelings, fly!</p>
@@ -293,8 +293,8 @@ function Home() {
                     </div>
 
                     <div className='w-56 text-lg'>
-                        <h1 className='px-4'>Information</h1>
-                        <ul className='p-4 space-y-2 text-gray-400'>
+                        <h1 className='px-0 md:px-4'>Information</h1>
+                        <ul className='md:p-4 space-y-2 text-gray-400'>
                             <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>Home</li>
                             <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>Explore</li>
                             <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>Travel</li>
@@ -304,8 +304,8 @@ function Home() {
                         </ul>
                     </div>
                     <div className='w-56 text-lg'>
-                        <h1 className='px-4'>Quick Guide</h1>
-                        <ul className='p-4 space-y-2 text-gray-400'>
+                        <h1 className='md:px-4'>Quick Guide</h1>
+                        <ul className='md:p-4 space-y-2 text-gray-400'>
                             <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>FAQ</li>
                             <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>How to</li>
                             <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>Features</li>
@@ -315,8 +315,8 @@ function Home() {
                         </ul>
                     </div>
                     <div className='w-56 text-lg'>
-                        <h1 className='px-4'>Queries</h1>
-                        <ul className='p-4 space-y-2 text-gray-400'>
+                        <h1 className='md:px-4'>Queries</h1>
+                        <ul className='md:p-4 space-y-2 text-gray-400'>
                             <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>Chauffuer</li>
                             <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>Our partners</li>
                             <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>Destination</li>

@@ -114,7 +114,7 @@ function Home() {
                             </div>
                         </div>
                         <div className='flex justify-center items-center py-10 md:py-0'>
-                            <img src="src/assets/Images-Grid.png" alt="" />
+                            <img src="./Images-Grid.png" alt="" />
                         </div>
                     </div>
 
@@ -180,7 +180,7 @@ function Home() {
                     </div>
                 </div>
                 <div className='flex justify-center items-center'>
-                    <img src="src/assets/Images-Grid2.png" alt="" />
+                    <img src="./Images-Grid2.png" alt="" />
                 </div>
             </div>
 
@@ -190,13 +190,13 @@ function Home() {
 
                     <div className="relative w-56 h-80 overflow-hidden group cursor-pointer duration-300">
                         <img
-                            src="src/assets/NewYork.png"
+                            src="./NewYork.png"
                             className="rounded-full w-full h-full object-cover"
                             alt="New York"
                         />
                         <div className="absolute bottom-4 left-[90px] w-12 h-12 p-1 bg-gray-300 rounded-full flex justify-center items-center shadow-md z-50 animate-bounceSlow">
                             <img
-                                src="src/assets/user(2).png"
+                                src="./user(2).png"
                                 className="rounded-full w-full h-full object-cover "
                                 alt="User"
                             />
@@ -210,13 +210,13 @@ function Home() {
 
                     <div className="relative w-56 h-80 group overflow-hidden">
                         <img
-                            src="src/assets/paris.jpg"
+                            src="./paris.jpg"
                             className="rounded-full w-full h-full object-cover"
                             alt="Paris"
                         />
                         <div className="absolute bottom-4 left-[90px] w-12 h-12 b p-1 bg-gray-300 rounded-full flex justify-center items-center shadow-md z-50 animate-bounceSlow">
                             <img
-                                src="src/assets/user(1).png"
+                                src="./user(1).png"
                                 className="rounded-full w-full h-full object-cover"
                                 alt="User"
                             />
@@ -227,13 +227,13 @@ function Home() {
                     </div>
                     <div className="relative w-56 h-80 group cursor-pointer duration-300 overflow-hidden">
                         <img
-                            src="src/assets/london.png"
+                            src="./london.png"
                             className="rounded-full w-full h-full object-cover"
                             alt="London"
                         />
                         <div className="absolute bottom-4 left-[90px] w-12 h-12 p-1 bg-gray-300 rounded-full flex justify-center items-center shadow-md z-50 animate-bounceSlow">
                             <img
-                                src="src/assets/user(3).png"
+                                src="./user(3).png"
                                 className="rounded-full w-full h-full object-cover"
                                 alt="User"
                             />
@@ -245,13 +245,13 @@ function Home() {
                     </div>
                     <div className="relative w-56 h-80 group cursor-pointer duration-300 overflow-hidden">
                         <img
-                            src="src/assets/dubai.png"
+                            src="./dubai.png"
                             className="rounded-full w-full h-full object-cover"
                             alt="Dubai"
                         />
                         <div className="absolute bottom-4 left-[90px] w-12 h-12  p-1 bg-gray-300 rounded-full flex justify-center items-center shadow-md z-50 animate-bounceSlow">
                             <img
-                                src="src/assets/user(4).png"
+                                src="./user(4).png"
                                 className="rounded-full w-full h-full object-cover"
                                 alt="User"
                             />
@@ -273,7 +273,7 @@ function Home() {
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-4 pt-16 px-4 gap-10 md:gap-20 w-full md:w-[1200px]'>
                     <div className='w-56'>
-                        <img src="src/assets/air-company-logo.png" className='w-14' alt="" />
+                        <img src="./air-company-logo.png" className='w-14' alt="" />
                         <p className='text-gray-400 py-4'>Your mind should be stronger than your feelings, fly!</p>
                         <div className='flex items-center flex-nowrap gap-4'>
                             <a href="https://www.linkedin.com/in/shreyash-thaware-168718264/" target='_blank' className='border-2 border-gray-300 py-4 px-2 rounded-full text-gray-400 hover:bg-blue-600 hover:text-white cursor-pointer hover:-translate-y-4 duration-700'>

@@ -30,7 +30,7 @@ function Navbar() {
                 <div className='px-4 md:px-20 bg-[#f0f4f4]'>
                     <div className='grid grid-cols-2 md:grid-cols-3 justify-center items-center'>
                         <div>
-                            <img src="src/assets/air-company-logo.png" className='w-20 md:w-24' alt="plane" />
+                            <img src="./air-company-logo.png" className='w-20 md:w-24' alt="plane" />
                         </div>
                         <div className='hidden md:flex'>
                             <ul className='flex flex-row flex-nowrap justify-center items-center gap-8 text-sm font-semibold tracking-wide'>

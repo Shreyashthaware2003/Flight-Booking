@@ -27,6 +27,24 @@ function Home() {
     };
 
 
+    document.addEventListener('DOMContentLoaded', () => {
+        const video = document.querySelector('video');
+        if (video) {
+            const playPromise = video.play();
+            if (playPromise !== undefined) {
+                playPromise
+                    .then(() => {
+                        // Autoplay worked
+                    })
+                    .catch(() => {
+                        // Autoplay failed, show controls as a fallback
+                        video.controls = true;
+                    });
+            }
+        }
+    });
+
+
 
     return (
         <>

@@ -41,7 +41,7 @@ function Home() {
                     <div className="flex relative justify-center items-center py-4 px-4 h-[300px] md:h-[450px]">
                         <div className="w-full max-w-[900px] h-40 md:h-64 bg-gray-200 rounded-full relative overflow-hidden shadow-lg">
                             <video
-                                src="/video.mp4"
+                                src="./video.mp4"
                                 className="absolute top-0 left-0 w-full h-full object-cover"
                                 loop
                                 autoPlay

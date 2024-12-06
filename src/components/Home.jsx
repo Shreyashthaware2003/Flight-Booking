@@ -4,6 +4,10 @@ import { useState } from 'react';
 import { HiOutlineCalendarDateRange } from "react-icons/hi2";
 import { AiOutlineSafetyCertificate } from "react-icons/ai";
 import { LuBookmarkCheck } from "react-icons/lu";
+import { FaInstagram } from "react-icons/fa";
+import { FiGithub } from "react-icons/fi";
+import { FaLinkedinIn } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
 function Home() {
 
@@ -34,7 +38,7 @@ function Home() {
                         </div>
                     </div>
 
-                    <div className="flex justify-center items-center py-4 px-4 h-[300px] md:h-[450px]">
+                    <div className="flex relative justify-center items-center py-4 px-4 h-[300px] md:h-[450px]">
                         <div className="w-full max-w-[900px] h-40 md:h-64 bg-gray-200 rounded-full relative overflow-hidden shadow-lg">
                             <video
                                 src="/video.mp4"
@@ -44,7 +48,7 @@ function Home() {
                                 muted>
                             </video>
                         </div>
-                        <div className='absolute bottom-[270px] md:bottom-28'>
+                        <div className='absolute top-12 md:top-4'>
                             <img src="src/assets/takeOff.png" className='w-[700px] md:w-[900px] px-4' alt="" />
                         </div>
                     </div>
@@ -257,10 +261,74 @@ function Home() {
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
+
+            <div className='bg-[#f0f4f4] flex flex-col justify-center items-center w-full pt-20'>
+                <div className='flex flex-col justify-center items-center'>
+                    <h1 className='text-3xl font-semibold tracking-wide'>Subscribe Newsletters & get Latest News</h1>
+                    <div className='w-full py-6 relative flex justify-center items-center'>
+                        <input type="email" placeholder='Enter your email address' className='w-full px-4 py-3 rounded-full relative' />
+                        <button className='absolute right-2 bg-blue-600 font-semibold text-white rounded-full px-4 py-2'>Subscribe Now</button>
+                    </div>
+                </div>
+                <div className='grid grid-cols-4 justify-start items-center pt-16 px-4 gap-20'>
+                    <div className='w-56'>
+                        <img src="src/assets/air-company-logo.png" className='w-14' alt="" />
+                        <p className='text-gray-400 py-4'>Your mind should be stronger than your feelings, fly!</p>
+                        <div className='flex items-center flex-nowrap gap-4'>
+                            <a href="https://www.linkedin.com/in/shreyash-thaware-168718264/" target='_blank' className='border-2 border-gray-300 py-4 px-2 rounded-full text-gray-400 hover:bg-blue-600 hover:text-white cursor-pointer hover:-translate-y-4 duration-700'>
+                                <FaLinkedinIn />
+                            </a>
+                            <a href="https://github.com/Shreyashthaware2003" target='_blank' className='border-2 border-gray-300 py-4 px-2 rounded-full text-gray-400 hover:bg-blue-600 hover:text-white cursor-pointer hover:-translate-y-4 duration-700'>
+                                <FiGithub />
+
+                            </a>
+                            <a href="https://mail.google.com/mail/u/0/?fs=1&to=shreyashthaware284@gmail.com&tf=cm" target='_blank' className='border-2 border-gray-300 py-4 px-2 rounded-full text-gray-400 hover:bg-blue-600 hover:text-white cursor-pointer hover:-translate-y-4 duration-700'>
+                                <SiGmail />
+                            </a>
+                            <a href="https://www.instagram.com/shrreyy.17/" target='_blank' className='border-2 border-gray-300 py-4 px-2 rounded-full text-gray-400 hover:bg-blue-600 hover:text-white cursor-pointer hover:-translate-y-4 duration-700 '>
+                                <FaInstagram />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className='w-56 text-lg'>
+                        <h1 className='px-4'>Information</h1>
+                        <ul className='p-4 space-y-2 text-gray-400'>
+                            <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>Home</li>
+                            <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>Explore</li>
+                            <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>Travel</li>
+                            <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>Flight Status</li>
+                            <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>Check-In</li>
+                            <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>Manage your booking</li>
+                        </ul>
+                    </div>
+                    <div className='w-56 text-lg'>
+                        <h1 className='px-4'>Quick Guide</h1>
+                        <ul className='p-4 space-y-2 text-gray-400'>
+                            <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>FAQ</li>
+                            <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>How to</li>
+                            <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>Features</li>
+                            <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>Baggage</li>
+                            <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>Route Map</li>
+                            <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>Our communities</li>
+                        </ul>
+                    </div>
+                    <div className='w-56 text-lg'>
+                        <h1 className='px-4'>Queries</h1>
+                        <ul className='p-4 space-y-2 text-gray-400'>
+                            <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>Chauffuer</li>
+                            <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>Our partners</li>
+                            <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>Destination</li>
+                            <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>Careers</li>
+                            <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>Transportation</li>
+                            <li className='cursor-pointer hover:text-blue-600 hover:translate-x-4 duration-700'>Programme Rules</li>
+                        </ul>
+                    </div>
+                </div>
+                    <hr className=' border border-black w-full mt-6' />
+                    <span className='font-semibold py-6'>Developed by <a href="https://www.linkedin.com/in/shreyash-thaware-168718264/" className='text-blue-600 cursor-pointer hover:text-blue-700 duration-300'>Shreyash Thaware</a></span>
+            </div >
 
         </>
     )

@@ -45,7 +45,8 @@ function Home() {
                                 className="absolute top-0 left-0 w-full h-full object-cover"
                                 loop
                                 autoPlay
-                                muted>
+                                muted
+                                playsinline>
                             </video>
                         </div>
                         <div className='absolute top-12 md:top-4'>
@@ -326,8 +327,8 @@ function Home() {
                         </ul>
                     </div>
                 </div>
-                    <hr className=' border border-black w-full mt-6' />
-                    <span className='font-semibold py-6'>Developed by <a href="https://www.linkedin.com/in/shreyash-thaware-168718264/" className='text-blue-600 cursor-pointer hover:text-blue-700 duration-300'>Shreyash Thaware</a></span>
+                <hr className=' border border-black w-full mt-6' />
+                <span className='font-semibold py-6'>Developed by <a href="https://www.linkedin.com/in/shreyash-thaware-168718264/" className='text-blue-600 cursor-pointer hover:text-blue-700 duration-300'>Shreyash Thaware</a></span>
             </div >
 
         </>

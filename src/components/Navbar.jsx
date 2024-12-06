@@ -7,7 +7,7 @@ function Navbar() {
     return (
         <>
             <div className='flex flex-col flex-nowrap gap-2 fixed top-0 w-full z-50'>
-                <div className='px-6 md:px-16 py-6 bg-[#f0f4f4]'>
+                <div className='px-6 md:px-16 py-6 bg-[#f0f4f4] hidden'>
                     <div className='grid grid-cols-2 md:grid-cols-3 justify-center items-center'>
                         <SiConsul className='font-medium text-lg' />
                         <div className='hidden md:flex justify-center items-center text-gray-500 gap-6 '>
@@ -27,7 +27,7 @@ function Navbar() {
                     </div>
                 </div>
 
-                <div className='px-4 md:px-20'>
+                <div className='px-4 md:px-20 bg-[#f0f4f4]'>
                     <div className='grid grid-cols-2 md:grid-cols-3 justify-center items-center'>
                         <div>
                             <img src="src/assets/air-company-logo.png" className='w-20 md:w-24' alt="plane" />
